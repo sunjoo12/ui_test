@@ -1,16 +1,12 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Section01Buttons from './components/sections/section-01-buttons';
 
 /**
- * 섹션 컴포넌트를 순차적으로 추가합니다.
  * 새 섹션 추가 시: import 추가 → sections 배열에 추가
- *
- * 예시:
- * import Section01Buttons from './components/sections/Section01Buttons';
- * const sections = [Section01Buttons, ...];
  */
-const sections = [];
+const sections = [Section01Buttons];
 
 function App() {
   return (
