@@ -2,11 +2,12 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Section01Buttons from './components/sections/section-01-buttons';
+import Section02Navigation from './components/sections/section-02-navigation';
 
 /**
  * 새 섹션 추가 시: import 추가 → sections 배열에 추가
  */
-const sections = [Section01Buttons];
+const sections = [Section01Buttons, Section02Navigation];
 
 function App() {
   return (
